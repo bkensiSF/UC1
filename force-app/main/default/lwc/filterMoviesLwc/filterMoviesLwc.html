@@ -1,0 +1,18 @@
+<template>
+
+     <lightning-button
+    onclick={handleClick}
+    aria-haspopup="dialog"
+    label="New movie">
+</lightning-button> 
+
+                <lightning-input type="search"
+					onchange={handleSearchTermChange}
+					variant="label-hidden"
+					class="slds-var-m-bottom_small"
+					label="Search"
+					placeholder="Search for Movies"
+					value={searchTerm}>
+				</lightning-input>
+  
+</template>
